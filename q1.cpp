@@ -1,5 +1,5 @@
 int *spirallyTraverse(int R, int C, int **matrix) {
-    if (R < 1 || C < 1 || R > 1000 || C > 1000) {
+    if (R < 1 || C < 1) {
         return NULL;
     }
     int remainingTraverses = R * C;
